@@ -10,13 +10,13 @@ from pygit2 import Keypair, RemoteCallbacks, UserPass, Repository, Signature
 
 # Inicializar Nornir
 nr = InitNornir(config_file= "config.yaml" )
-GITHUB_REPO_PATH = "/root/Automatizacion/FINAL/Proyecto_Final_AR"
+GITHUB_REPO_PATH = "/root/Automatizacion/FINAL/klk"
 
 # Crear el directorio
 #backup_dir = "backups"
 #os.makedirs(backup_dir, exist_ok=True)
 # Crear el directorio dentro del repositorio local de GitHub
-repo_path = "/root/Automatizacion/FINAL/Proyecto_Final_AR"
+repo_path = "/root/Automatizacion/FINAL/klk"
 backup_dir = os.path.join(repo_path, "backups")  # Ruta completa al directorio de backups
 os.makedirs(backup_dir, exist_ok=True)
 
