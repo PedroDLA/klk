@@ -66,7 +66,7 @@ def git_commit_push(repo_path, commit_message="Backup automático"):
     )
     #token = os.getenv("GITHUB_TOKEN")  # Asegúrate de exportar esta variable en tu terminal
    # if not token:
-   #   raise ValueError("El token de GitHub no está configurado. Usa export GITHUB_TOKEN=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")
+   #   raise ValueError("El token de GitHub no está configurado. Usa export GITHUB_TOKEN=")
     #keypair = Keypair("git", "/ruta/a/clave_privada", "/ruta/a/clave_publica", "")
     #callbacks = RemoteCallbacks(credentials=keypair)
     #remote = repo.remotes["origin"]
